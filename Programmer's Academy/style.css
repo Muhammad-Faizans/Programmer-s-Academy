@@ -1,0 +1,150 @@
+
+ 
+.navbar{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    background-color:#80d0c7;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.enroll-button{
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+}
+.enroll{
+    padding-left: 300px;
+}
+ul{
+    margin-left: 300px;
+    display: flex;
+}
+.navbar-brand{
+    color: white;
+   
+    font-weight: bolder;
+}
+.search{
+    width: 150px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+
+.media{
+     display: flex;
+     justify-content:flex-end;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.info{
+     display: inline-flex;
+     flex-direction: column;
+}
+.location{
+    text-align: center;
+    
+}
+
+.map{
+    width:55%;
+}
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+}  
+
+ 
+
+header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.sidebar {  
+    flex: 1;  
+    background: #f4f4f4;  
+    padding: 20px;  
+    border-radius: 8px;  
+}  
+
+.sidebar h2 {  
+    margin-bottom: 10px;  
+}  
+
+.sidebar ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+.sidebar ul li {  
+    margin: 5px 0;  
+}  
+
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+}  
+
+@media (min-width: 768px) {  
+    .container {  
+        flex-direction: row;  
+    }  
+
+    .sidebar {  
+        width: 25%;  
+        margin-right: 20px;  
+    }  
+
+    footer {  
+        position: relative;  
+        bottom: 0;  
+        width: 100%;  
+    }  
+}
+.custom-block-image{
+    height: 300px;
+    
+}
+.custom-block{
+    border-radius: 20px;
+    padding: 20px;
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    box-sizing: border-box;
+}
+.rowss{
+   max-width:50%;
+}
+.copy{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
